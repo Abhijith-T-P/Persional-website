@@ -1,0 +1,185 @@
+body{
+    user-select: none;
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+    user-select: none;
+    
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;margin-right: 170px;
+}
+header{
+    position: fixed ;
+    background-color: hsl(0, 0%, 27%);
+    max-width: 150px;
+    height: 100000px;
+    
+
+
+}
+li{
+    color: aliceblue;
+    text-decoration: none;  
+    list-style-type: none;
+}
+ul{
+    
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+main{
+    position: relative;
+    left: 180px;
+    max-width: 90%;
+}
+.hi{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5em;
+    position: relative;
+    
+}
+.hi h2{
+    position: relative;
+    left: 60px;
+}
+.hi h2:hover{
+    color: aqua;
+}
+.decor{
+    font-family: 'Caveat', cursive;
+    color: rgb(85, 85, 85);
+    font-size: 30px;
+    margin: 5px;
+    
+}
+.hi h2{
+    padding-left: 20px;
+    color: aliceblue;
+    margin: 20px 0px;
+}
+.hi img{
+    max-width: 61px;
+    position: relative;
+    top: 12px;
+    left: 23px;
+}
+.logoA img{
+    max-width: 100px;
+    position: relative;
+    bottom: 50px;
+    padding: 40px 20px;
+    background-color: rgb(22, 22, 22);
+    z-index: 1;
+}
+
+.logoA p{
+    position: absolute;
+    z-index: 2;
+    top: 74px;
+    left: 7px;
+    font-size: 12px;
+
+}
+li a{
+    padding: 8px 8px;
+    line-height: 40px;
+
+    position: relative;
+    right: 20px;
+    bottom: 60px;
+/*    border-bottom: solid 2px rgb(46, 46, 46);
+    border: solid 2px rgb(46, 46, 46);*/
+    min-width: 80px;
+
+}
+li a:hover{
+    color: aqua;
+}
+.ogtxt p{
+    position: relative;
+    left: 60px;
+    color: aliceblue;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactbtn{
+    position: absolute;
+    left: 80px;
+    border: solid 2px aqua;
+    padding: 0px 48px;
+}
+.contactbtn:hover{
+    background-color: rgb(75, 74, 74);
+}
+.scroll h3{
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 100%;
+    top: 670px;
+
+}
+.logo a img{
+    max-width: 45px;
+    left: 10px;
+    top: 5px;
+}
+article{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 95%;
+    padding-bottom: 30px; 
+
+}
+form [name="subject"]{
+    width: 525px;
+    max-width: 525px;
+}
+
+
+form input{
+    font-family: 'Caveat', cursive;
+     background-color:rgb(40, 40, 40);
+     color: aliceblue; 
+     width: 250px;
+     height: 50px;
+     border: none;
+     font-size: 1.5em;
+     padding: 5px;
+     padding-left: 15px;
+
+} 
+
+
+textarea{
+     font-family: 'Caveat', cursive;
+     background-color:rgb(40, 40, 40);
+     color: aliceblue; 
+     width: 525px;
+     height: 250px;
+     border: none;
+     font-size: 1.5em;
+     padding: 5px;
+     padding-left: 15px
+}
+footer{
+    background-color: rgb(75, 74, 74);
+    padding: 5px 1%;
+    width: 105%;
+}
+
+p.copyright{
+ text-align: center;
+}
+input:hover{
+    border: solid 2px aqua;
+}
+textarea:hover{
+    border: solid 2px aqua;
+}
+input[id="sub"]{
+    padding: 15px 0px; 
+}
